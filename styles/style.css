@@ -64,11 +64,11 @@ html {
 }
 .aligned_text_center {
   text-align: center;
-  margin-right: -0.3em; /*ниверлируем letter-spacing справа*/
+  margin-right: -0.3em; /*нивелируем letter-spacing справа*/
 }
 .aligned_text_right {
   text-align: right;
-  margin-right: -0.3em; /*ниверлируем letter-spacing справа*/
+  margin-right: -0.3em; /*нивелируем letter-spacing справа*/
 }
 .cover_description {
   display: flex;
@@ -115,7 +115,6 @@ html {
   width: 334px;
   min-height: 596px;
 }
-
 .card_title {
   font-size: 22px;
   font-weight: 700;
@@ -148,7 +147,7 @@ html {
   background-image: url("../images/card-lot-02.jpg");
 }
 .card_type_picture {
-  background-image: url("../images/card-lot-03.jpg"); 
+  background-image: url("../images/card-lot-03.jpg");
 }
 .card_text {
   color: white;
@@ -200,7 +199,7 @@ html {
   gap: 24px;
   padding-left: 25px;
   padding-top: 5px;
-  padding-right:3px;
+  padding-right: 3px;
 }
 .wordspace {
   word-spacing: 10px;
