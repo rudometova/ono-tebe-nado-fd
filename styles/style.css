@@ -28,10 +28,12 @@ html {
   width: 148px;
   height: 105px;
 }
-.header_address {
-  justify-self: end;
+.address {
   font-style: normal;
   line-height: 135%;
+}
+.header_address {
+  justify-self: end;
   max-width: 236px;
 }
 .cover {
@@ -136,21 +138,17 @@ html {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-size: cover;
+  background-position: center;
 }
 .card_type_film {
-  background: url("../images/card-lot-01.jpg");
-  background-size: cover;
-  background-position-x: center;
+  background-image: url("../images/card-lot-01.jpg");
 }
 .card_type_book {
-  background: url("../images/card-lot-02.jpg");
-  background-size: cover;
-  background-position-x: center;
+  background-image: url("../images/card-lot-02.jpg");
 }
 .card_type_picture {
-  background: url("../images/card-lot-03.jpg");
-  background-size: cover;
-  background-position-x: center;
+  background-image: url("../images/card-lot-03.jpg"); 
 }
 .card_text {
   color: white;
@@ -174,28 +172,6 @@ html {
   grid-template-columns: 334px auto;
   grid-template-rows: auto auto;
 }
-.about_1 {
-  justify-self: center;
-}
-.about_2 {
-  align-self: center;
-  padding-left: 25px;
-}
-.about_4 {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  padding-left: 25px;
-  padding-top: 5px;
-}
-.about_text {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 120%;
-}
-.about_4_text {
-  max-width: 688px;
-}
 .about_logo {
   width: 240px;
   height: 240px;
@@ -203,6 +179,7 @@ html {
   border-radius: 240px;
   display: flex;
   justify-content: center;
+  justify-self: center;
 }
 .about_logo_image {
   width: 148px;
@@ -211,6 +188,22 @@ html {
   font-size: 40px;
   font-weight: 700;
   text-transform: uppercase;
+  align-self: center;
+  padding-left: 25px;
+}
+.about_text {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 120%;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  padding-left: 25px;
+  padding-top: 5px;
+  padding-right:3px;
+}
+.wordspace {
+  word-spacing: 10px;
 }
 .footer {
   padding: 180px 50px 82px 50px;
@@ -221,8 +214,6 @@ html {
   text-underline-offset: 4px;
 }
 .footer_address {
-  font-style: normal;
-  line-height: 135%;
   max-width: 260px;
 }
 .footer_menu {
